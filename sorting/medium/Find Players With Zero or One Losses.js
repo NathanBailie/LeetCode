@@ -9,7 +9,8 @@ function findWinners(m) {
     }, {});
 
     for (let key in lost) {
-        if (lost[key] === 0) res[0].push(+key);
+        if (lost[key] === 0) res[0].push(+
+            key);
         if (lost[key] === 1) res[1].push(+key);
     }
     return res;
