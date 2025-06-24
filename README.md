@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-This repository contains my solutions for **LeetCode** challenges from [LeetCode](https://leetcode.com/).
+This repository contains solutions for **LeetCode** challenges from [LeetCode](https://leetcode.com/).
 
 ## 📂 Structure
 
@@ -12,9 +12,4 @@ This repository contains my solutions for **LeetCode** challenges from [LeetCode
 
 ## 🚀 Main Topics
 
-- **Algorithms**
-- **Strings**
-- **Arrays**
-- **Objects**
-- **Regular expressions**
-- **And more...**
+- **Two pointers**
