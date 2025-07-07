@@ -13,3 +13,5 @@ This repository contains solutions for **LeetCode** challenges from [LeetCode](h
 ## 🚀 Main Topics
 
 - **Two pointers**
+- **Hash table**
+- **Linked list**
