@@ -15,3 +15,4 @@ This repository contains solutions for **LeetCode** challenges from [LeetCode](h
 - **Two pointers**
 - **Hash table**
 - **Linked list**
+- **Stack**
