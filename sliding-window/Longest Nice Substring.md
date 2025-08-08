@@ -5,7 +5,6 @@
 ### 💡 Solution
 
 ```js
-// sliding window
 function longestNiceSubstring(s) {
 	let maxLen = 0;
 	let result = '';
@@ -47,8 +46,11 @@ function isNice(lowerSet, upperSet) {
 
 	return true;
 }
+```
 
-// but the most effective
+#### The most effective
+
+```js
 function longestNiceSubstring(s) {
 	if (s.length < 2) return '';
 	let seen = new Set(s);
