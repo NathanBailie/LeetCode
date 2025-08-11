@@ -17,3 +17,4 @@ This repository contains solutions for **LeetCode** challenges from [LeetCode](h
 - **Linked list**
 - **Stack**
 - **Sliding window**
+- **Matrix**
