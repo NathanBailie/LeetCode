@@ -5,22 +5,27 @@
 ### 💡 Solution
 
 ```js
-function findDuplicate(nums) {
-	let slow = nums[0];
-	let fast = nums[0];
+function addTwoNumbers(l1, l2) {
+	let dummy = new ListNode(-1);
+	let curr = dummy;
+	let carry = 0;
 
-	do {
-		slow = nums[slow];
-		fast = nums[nums[fast]];
-	} while (slow !== fast);
+	while (l1 !== null || l2 !== null || carry > 0) {
+		let val1 = l1 !== null ? l1.val : 0;
+		let val2 = l2 !== null ? l2.val : 0;
 
-	slow = nums[0];
+		let sum = val1 + val2 + carry;
 
-	while (slow !== fast) {
-		slow = nums[slow];
-		fast = nums[fast];
+		carry = Math.floor(sum / 10);
+		let newNodeValue = sum % 10;
+
+		curr.next = new ListNode(newNodeValue);
+		curr = curr.next;
+
+		if (l1 !== null) l1 = l1.next;
+		if (l2 !== null) l2 = l2.next;
 	}
 
-	return slow;
+	return dummy.next;
 }
 ```
